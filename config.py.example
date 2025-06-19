@@ -1,16 +1,15 @@
-
-import os
-
 # Telegram API credentials
-# It's recommended to set these as environment variables for security and flexibility.
+# It's recommended to set these as environment variables.
 # Example:
 # export TELEGRAM_API_ID="your_api_id"
 # export TELEGRAM_API_HASH="your_api_hash"
 # export TELEGRAM_BOT_TOKEN="your_bot_token"
 
-API_ID = os.getenv('TELEGRAM_API_ID') or ''
-API_HASH = os.getenv('TELEGRAM_API_HASH') or ''
-BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN') or ''
+# Alternatively, you can uncomment and fill these lines directly,
+# but ensure this file (if named config.py) is added to .gitignore
+# API_ID = 'your_api_id_here'
+# API_HASH = 'your_api_hash_here'
+# BOT_TOKEN = 'your_bot_token_here'
 
 # Dicionário para converter códigos de idioma
 LANGUAGE_CODES = {
